@@ -582,7 +582,7 @@ input, textarea, button {
 				a {
 					display: inline-block;
 					background: url(/template/images/social.png) no-repeat;
-					background-size: 120px 24px;
+					background-size: 96px 24px;
 					width: 0.24rem;
 					height: 0.24rem;
 					overflow: hidden;
@@ -593,11 +593,10 @@ input, textarea, button {
 					@include transform (translate(0,0));
 					&:hover { @include transform (translate(0,-0.02rem));}
 				}
-				.weibo { background-position: -0px 0;}
-				.douban { background-position: -24px 0;}
-				.pinterest { background-position: -48px 0;}
-				.github { background-position: -72px 0;}
-				.behance { background-position: -96px 0;}
+				.github { background-position: -0px 0;}
+				.jianshu { background-position: -24px 0;}
+				.weibo { background-position: -48px 0;}
+				.rss { background-position: -72px 0;}
 			}
 		}
 		.down { display: none;}
