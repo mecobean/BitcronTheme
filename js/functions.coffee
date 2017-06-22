@@ -78,21 +78,6 @@ pageFunc =
                 $(this).toggleClass("directory_active");
                 $(".toc").toggleClass("toc_active");
 
-    # 电影收藏
-    movies: ->
-        if document.getElementById("movie")? and basic.getWinSize() > 4  #处于电影收藏页面，PC
-            $("#movie li h3").hover ->
-                $(this).parent().addClass "hover"
-            $("#movie li h3").mouseout ->
-                $(this).parent().removeClass "hover"
-
-    # 设计作品
-    works: ->
-        if document.getElementById("works")? and basic.getWinSize() < 3  #在手机上直接展现作品图片，而不是幻灯播放
-            $(".pic a.title").remove()
-            workItem = document.getElementsByClassName("pic")[0].getElementsByTagName "a"
-            $(item).replaceWith "<img src='#{$(item).attr "href"}'>" for item in workItem
-
     # 关于页面的环形进度条
     aboutProgress: ->
         if document.getElementById("about")?
