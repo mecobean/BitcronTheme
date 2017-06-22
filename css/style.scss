@@ -513,14 +513,14 @@ input, textarea, button {
 			clear: both;
 			display: none;
 			width: 100%;
-			padding: 0.5rem 0 0;
+			padding: 0.8rem 0 0;
 			background: url(/template/images/slogen.png) no-repeat center top;
 			background-size: 405px 53px;
 			text-align: center;
 			color: $light1;
 			position: absolute;
 			left: 0;
-			top: 35%;
+			top: 20%;
 			z-index: 5;
 			.text { display: none;}
 			.qr {
@@ -571,7 +571,7 @@ input, textarea, button {
 			text-align: center;
 			position: absolute;
 			left: 0;
-			top: 55%;
+			top: 65%;
 			z-index: 4;
 			.social {
 				display: inline-block;
