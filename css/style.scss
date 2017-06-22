@@ -1324,7 +1324,7 @@ input, textarea, button {
 .list .archive {
 	h1 {
 		padding: 0 0 0.08rem;
-		text-align: center;
+		text-align: left;
 		font-size: 0.32rem;
 	}
 	ul li {
@@ -1372,7 +1372,7 @@ input, textarea, button {
 				padding: 0.4rem;
 				ul li {
 					padding: 0.12rem 0;
-					border-bottom: 1px solid $dark4;
+					border-bottom: 1px dashed $dark4;
 					&:last-of-type {
 						border: none;
 					}

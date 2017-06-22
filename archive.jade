@@ -13,11 +13,11 @@ block content
 			for sub_title, posts in entries
 				.archive
 					.content
-						h1= "~ " + sub_title + " ~"
+						h1= sub_title
 						ul
 							for post in posts
 								li.clearfix
-									time= post.date.format("%m.%d")
+									time= post.date.format("%m-%d")
 									a(href=post.url, title=post.title)= post.title
 
 			//- 翻页
