@@ -10,19 +10,14 @@
 					.icon-icon_clock
 					time
 						{{post.date.format('%Y-%m-%d %H:%M')}}
-				.visitors
-					.icon-icon_book
-					span
-						{{ post.visits or 0 }}
 				if post.tags
 					.tags
 						for tag in post.tags
 							a(href="/tag/{{tag}}")= tag
-
+			
 			//- 分享代码
 			#baidu_share
-				p
-					|分享本文：
+				p 分享本文
 				.bdsharebuttonbox
 					a.bds_tsina(data-cmd="tsina", title="分享到新浪微博")
 					a.bds_weixin(data-cmd="weixin", title="分享到微信")
