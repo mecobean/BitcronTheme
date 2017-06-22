@@ -1,0 +1,16 @@
+//- 日志详情页面
+
+extends base
+
+block head
+    +h.load('markdown')
+
+block content
+    .post_wrap
+
+    	//- 日志详情
+        include include/postDetail
+        
+    	//- 评论组件
+        include include/comments
+        
