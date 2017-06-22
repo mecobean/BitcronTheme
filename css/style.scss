@@ -25,7 +25,7 @@ $accent3: #3c3d60;
 $shadow1: 0 1px 4px rgba(0,0,0,0.35);
 $shadow2: 0 4px 4px rgba(0,0,0,0.35);
 $shadow3: inset 0 0 1px $dark4;
-$bg_img: url(/template/images/bg.jpg);
+$bg_img: url(/template/images/bg.png);
 $easing1: cubic-bezier(0.15, 0.95, 0.41, 0.95);
 
 
@@ -1504,7 +1504,7 @@ input, textarea, button {
 
 #about {
 	.intro {
-		background: url(/template/images/bg_about.jpg) no-repeat center center;
+		background: url(/template/images/bg_about.png) no-repeat center center;
 		background-size: cover;
 		@include animation (fadein 1.2s $easing1 both);
 		.avatar {
