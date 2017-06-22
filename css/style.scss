@@ -1177,7 +1177,12 @@ input, textarea, button {
 				}
 				.tags {
 					line-height: 0.28rem;
-					a { margin: 0 0.06rem 0 0;}
+					a { 
+						background: #f4f6f8;
+						padding: 0.06rem;
+						border-radius: 4px;
+						margin-right: 0.06rem;
+					}
 				}
 			}
 		}
@@ -1282,7 +1287,12 @@ input, textarea, button {
 			}
 			.tags {
 				line-height: 0.28rem;
-				a { margin: 0 0.06rem 0 0;}
+				a { 
+					background: #f4f6f8;
+					padding: 0.06rem;
+					border-radius: 4px;
+					margin-right: 0.06rem;
+				}
 			}
 		}
 	}
