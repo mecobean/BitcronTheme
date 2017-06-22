@@ -31,11 +31,6 @@ html
                 include include/footer
 
         +h.load("/template/js/jquery2-latest.js")
-
-        //- 在作品页面额外加载fancybox插件，因为要用到图片弹窗
-        if request.url_without_host == "/works"
-            //- 请注意许多第三方库的文件名，因为官方文档写道：文件路径中不要出现“.”、“#”以及非英文字符。
-            +h.load("/template/components/fancybox/jquery.fancybox.min.css", "/template/components/fancybox/jquery.fancybox.min.js")
         
         //- 模板的主要js代码
         +h.load("/template/js/functions.coffee")
