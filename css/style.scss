@@ -1080,10 +1080,13 @@ input, textarea, button {
 				box-shadow: $shadow3;
 				.title {
 					height: 0.25rem;
-					overflow: hidden;
 					margin: 0 0 0.06rem;
 					font-size: 0.18rem;
-					text-overflow: ellipsis;
+					overflow:hidden;
+					text-overflow:ellipsis;
+					display:-webkit-box;
+					-webkit-line-clamp:1;
+					-webkit-box-orient:vertical;
 					//white-space: nowrap;
 					a { font-weight: bold;}
 				}
