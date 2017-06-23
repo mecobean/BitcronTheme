@@ -1200,6 +1200,9 @@ input, textarea, button {
 @media only screen and (max-width: $phone_landscape-max){
 	.detail {
 		border-top: 1.5rem solid $bg4;
+		word-wrap:break-word;
+		//word-break:break-all;
+		overflow: hidden;
 		.title {
 			width: 90%;
 			line-height: 1.2;
