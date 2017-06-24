@@ -15,6 +15,13 @@
 						for tag in post.tags
 							a(href="/tag/{{tag}}")= tag
 			
+			#post_follow
+				p 关注作者
+				.post_follow_button_box
+					a.post_follow_weibo(href="http://weibo.com/xuyafei86")
+					a.post_follow_github(href="https://github.com/xiaofei86")
+					a.post_follow_jianshu(href="http://www.jianshu.com/users/2555924d8c6e")
+
 			//- 分享代码
 			#baidu_share
 				p 分享本文

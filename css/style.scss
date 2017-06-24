@@ -1934,6 +1934,38 @@ a { @include transition (color 0.5s $easing1, background-color 0.5s $easing1);}
 }
 .circle_progress .center { width: 180px; height: 180px; background: $bg2; border-radius: 50%; position: absolute; left: 10px; top: 10px; }
 
+//**************************  post follow  ****************************//
+
+#post_follow {
+	padding: 0.3rem 0 0;
+	.post_follow_button_box {
+		height: 44px;
+		a {
+			background: url(/template/images/follow.png) no-repeat;
+			background-size: 96px 32px;
+			margin: 6px 6px 6px 0;
+			width: 32px;
+			height: 32px;
+			float: left;
+		}
+		.post_follow_weibo{
+			background-position: -0px -0px;
+		}
+		.post_follow_github {
+			background-position: -32px -0px;
+		}
+		.post_follow_jianshu {
+			background-position: -64px -0px;
+		}
+	}
+}
+
+
+@media only screen and (max-width: $phone_landscape-max){
+	#post_follow {
+		padding: 0 0.15rem 0.3rem;
+	}
+}
 
 //**************************  baidu share  ****************************//
 
