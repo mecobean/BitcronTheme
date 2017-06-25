@@ -6,8 +6,6 @@ window.onload = ->
     pageFunc.qrCode()  #二维码
     pageFunc.listType()  #列表页文章增加背景图
     pageFunc.postDirectory()  #文章内容目录的开关
-    pageFunc.movies()  #电影收藏
-    pageFunc.works()  #设计作品
     pageFunc.aboutProgress()  #关于页面的环形进度条
 
     #插件效果
