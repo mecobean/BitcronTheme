@@ -1,17 +1,11 @@
 //- 404页面
 
-html
-	head
-		meta(name="viewport", content="width=device-width")
-		title 找不到页面
-		+h.load("/template/css/reset.css", "/template/css/fonts.css", "/template/css/style.scss")
-		style(type="text/css")
-			body {
-				background: #eee;
-			}
-	body
-		.not_found
-			h1 404
-			p 您访问的链接不存在或已经失效
-			.img
-			a(href="/") 返回首页
+extends base
+
+block head
+    +h.load("/template/js/jquery2-latest.js", "/template/js/lostList.js")
+
+block content
+	.main_wrap
+		.not_found_new.clearfix
+		

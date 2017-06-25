@@ -1878,6 +1878,75 @@ a { @include transition (color 0.5s $easing1, background-color 0.5s $easing1);}
 	}
 }
 
+//*****************************  new 404  *******************************//
+
+.not_found_new {
+	h1 {
+		padding: 0.2rem 0 0.2rem 0;
+		text-align: center;
+		font-size: 0.32rem;
+	}
+	h2 {
+		padding: 0 0.2rem 0.15rem 0.2rem;
+		text-align: left;
+		font-size: 0.14rem;
+		color:$dark2;
+	}
+	.releated {
+		ul li {
+			url {
+				margin-left: 0.1rem;
+				line-height: 0.28rem;
+				font-size: 0.14rem;
+				color: $dark3;
+			}
+			a {
+				float: left;
+				display: block;
+				font-size: 0.18rem;
+			}
+		}
+	}
+}
+
+// phone
+@media only screen and (max-width: $phone_landscape-max){
+	.not_found_new {
+		.releated {
+			width: 100%;
+			position: relative;
+			.content {
+				padding: 0.15rem;
+				box-shadow: $shadow3;
+				ul li {
+					margin: 0 0 0.08rem;
+				}
+			}
+		}
+	}
+}
+// pad and pc
+@media only screen and (min-width: $pad_portrait-min){
+	.not_found_new {
+		padding: 0.3rem 0;
+		.releated {
+			margin: 0 0 0.3rem;
+			background: $bg1;
+			border-radius: 0.03rem;
+			box-shadow: $shadow1;
+			.content {
+				padding: 0.08rem 0.2rem;
+				ul li {
+					padding: 0.12rem 0;
+					border-bottom: 1px dashed $dark4;
+					&:last-of-type {
+						border: none;
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
