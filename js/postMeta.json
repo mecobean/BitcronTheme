@@ -188,7 +188,8 @@
         "Title":"[转]属性声明在implementation与extension的使用规范",
         "FuzzyMatch":[],
         "ExactMatch":[
-            "-zhuan-shu-xing-sheng-ming-gui-fan"
+            "-zhuan-shu-xing-sheng-ming-gui-fan",
+            "shu-xing-sheng-ming-zai-implementationyu-extensionde-shi-yong-gui-fan"
         ],
         "RelatedURL":{
             "Weibo":"",
@@ -257,7 +258,8 @@
         "Title":"整型数的使用规范",
         "FuzzyMatch":[],
         "ExactMatch":[
-            "zheng-xing-shu-shi-yong-gui-fan"
+            "zheng-xing-shu-shi-yong-gui-fan",
+            "zheng-xing-shu-de-shi-yong-gui-fan"
         ],
         "RelatedURL":{
             "Weibo":"",
@@ -339,7 +341,8 @@
         "Title":"使用 CGGeometry 方法获取 CGRect 数据",
         "FuzzyMatch":[],
         "ExactMatch":[
-            "cggeometry"
+            "cggeometry",
+            "shi-yong-cggeometryfang-fa-huo-qu-cgrectshu-ju"
         ],
         "RelatedURL":{
             "Weibo":"",
@@ -365,7 +368,8 @@
         "Title":"属性内存管理相关修饰符的使用规范",
         "FuzzyMatch":[],
         "ExactMatch":[
-            "shu-xing-xiu-shi-fu-gui-fan"
+            "shu-xing-xiu-shi-fu-gui-fan",
+            "shu-xing-nei-cun-guan-li-xiang-guan-xiu-shi-fu-de-shi-yong-gui-fan"
         ],
         "RelatedURL":{
             "Weibo":"",
