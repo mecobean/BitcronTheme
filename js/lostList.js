@@ -61,8 +61,9 @@
 			appendHTML += "</ul></div></div>";
 		}
 		if (!exactMetas.length && !fuzzyMetas.length) {
-			appendHTML += "<h2 style=\"text-align:center;\">您访问的链接不存在或已失效，您可以到博客 \
-			<a href=\"/\">首页</a> 或 <a href=\"/archive\">归档页</a> 查找您想要的文章</h2>";
+			appendHTML += "<h2 style=\"text-align:center;\">您访问的链接不存在或已失效，\
+			您可以到博客 <a href=\"/\">首页</a> 或 <a href=\"/archive\">归档页</a> 查找您想要的文章，\
+			或将此问题反馈给 <a href=\"mailto:xuyafei86@163.com\">博主</a></h2>";
 		}
 
 		// append html to content
