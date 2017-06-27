@@ -1,6 +1,6 @@
 {
     "ios-uuid":{
-        "URL":"http://xuyafei.com/post/all/ios-uuid",
+        "URL":"http://xuyafei.com/post/public/ios-uuid",
         "Title":"iOS 中的设备唯一标识",
         "FuzzyMatch":[],
         "ExactMatch":[],
@@ -11,7 +11,7 @@
         }
     },
     "ios10.3-comment":{
-        "URL":"http://xuyafei.com/post/all/ios10.3-comment",
+        "URL":"http://xuyafei.com/post/public/ios10.3-comment",
         "Title":"iOS10.3 的评论系统",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -24,7 +24,7 @@
         }
     },
     "swift-accessmodifier":{
-        "URL":"http://xuyafei.com/post/all/swift-accessmodifier",
+        "URL":"http://xuyafei.com/post/public/swift-accessmodifier",
         "Title":"Swift 中的访问控制",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -37,7 +37,7 @@
         }
     },
     "ios-thread":{
-        "URL":"http://xuyafei.com/post/all/ios-thread",
+        "URL":"http://xuyafei.com/post/public/ios-thread",
         "Title":"iOS 中的多线程技术",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -50,7 +50,7 @@
         }
     },
     "webview-finishload":{
-        "URL":"http://xuyafei.com/post/all/webview-finishload",
+        "URL":"http://xuyafei.com/post/public/webview-finishload",
         "Title":"如何准确判断 WebView 加载完成",
         "FuzzyMatch":["webview"],
         "ExactMatch":[
@@ -63,7 +63,7 @@
         }
     },
     "webview-typesetting":{
-        "URL":"http://xuyafei.com/post/all/webview-typesetting",
+        "URL":"http://xuyafei.com/post/public/webview-typesetting",
         "Title":"使用 WebView + HTML + JavaScript + JSExport 实现图文混排",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -76,7 +76,7 @@
         }
     },
     "assistivetouch":{
-        "URL":"http://xuyafei.com/post/all/assistivetouch",
+        "URL":"http://xuyafei.com/post/public/assistivetouch",
         "Title":"开源工具 XFAssistiveTouch",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -89,7 +89,7 @@
         }
     },
     "quartz2d1":{
-        "URL":"http://xuyafei.com/post/all/quartz2d1",
+        "URL":"http://xuyafei.com/post/public/quartz2d1",
         "Title":"Quartz2D 编程指南（一）概览、图形上下文、路径、颜色与颜色空间",
         "FuzzyMatch":["quartz"],
         "ExactMatch":[
@@ -103,7 +103,7 @@
         }
     },
     "quartz2d2":{
-        "URL":"http://xuyafei.com/post/all/quartz2d2",
+        "URL":"http://xuyafei.com/post/public/quartz2d2",
         "Title":"Quartz2D 编程指南（二）变换、图案、阴影",
         "FuzzyMatch":["quartz"],
         "ExactMatch":[
@@ -117,7 +117,7 @@
         }
     },
     "quartz2d3":{
-        "URL":"http://xuyafei.com/post/all/quartz2d3",
+        "URL":"http://xuyafei.com/post/public/quartz2d3",
         "Title":"Quartz2D 编程指南（三）渐变、透明层 、数据管理",
         "FuzzyMatch":["quartz"],
         "ExactMatch":[
@@ -131,7 +131,7 @@
         }
     },
     "quartz2d4":{
-        "URL":"http://xuyafei.com/post/all/quartz2d4",
+        "URL":"http://xuyafei.com/post/public/quartz2d4",
         "Title":"Quartz2D 编程指南（四）位图与图像遮罩、CoreGraphics 绘制 Layer",
         "FuzzyMatch":["quartz"],
         "ExactMatch":[
@@ -145,7 +145,7 @@
         }
     },
     "navigationbar":{
-        "URL":"http://xuyafei.com/post/all/navigationbar",
+        "URL":"http://xuyafei.com/post/public/navigationbar",
         "Title":"透明与半透明 NavigationBar 切换的三种方案",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -158,7 +158,7 @@
         }
     },
     "memory-alignment":{
-        "URL":"http://xuyafei.com/post/all/memory-alignment",
+        "URL":"http://xuyafei.com/post/public/memory-alignment",
         "Title":"内存对齐",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -171,7 +171,7 @@
         }
     },
     "ios-shortcut":{
-        "URL":"http://xuyafei.com/post/all/ios-shortcut",
+        "URL":"http://xuyafei.com/post/public/ios-shortcut",
         "Title":"iOS 开发常用快捷键",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -184,7 +184,7 @@
         }
     },
     "r-property-declare":{
-        "URL":"http://xuyafei.com/post/all/r-property-declare",
+        "URL":"http://xuyafei.com/post/public/r-property-declare",
         "Title":"[转]属性声明在implementation与extension的使用规范",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -198,7 +198,7 @@
         }
     },
     "codeguide1-named":{
-        "URL":"http://xuyafei.com/post/all/codeguide1-named",
+        "URL":"http://xuyafei.com/post/public/codeguide1-named",
         "Title":"Cocoa代码风格指南之命名规范（一）",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -212,7 +212,7 @@
         }
     },
     "codeguide2-typesetting":{
-        "URL":"http://xuyafei.com/post/all/codeguide2-typesetting",
+        "URL":"http://xuyafei.com/post/public/codeguide2-typesetting",
         "Title":"Cocoa代码风格指南之排版规范（二）",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -226,7 +226,7 @@
         }
     },
     "codeguide3-comment":{
-        "URL":"http://xuyafei.com/post/all/codeguide3-comment",
+        "URL":"http://xuyafei.com/post/public/codeguide3-comment",
         "Title":"Cocoa代码风格指南之注释规范（三）",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -240,7 +240,7 @@
         }
     },
     "codeguide4-usage":{
-        "URL":"http://xuyafei.com/post/all/codeguide4-usage",
+        "URL":"http://xuyafei.com/post/public/codeguide4-usage",
         "Title":"Cocoa代码风格指南之使用规范（四）",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -254,7 +254,7 @@
         }
     },
     "integer":{
-        "URL":"http://xuyafei.com/post/all/integer",
+        "URL":"http://xuyafei.com/post/public/integer",
         "Title":"整型数的使用规范",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -268,7 +268,7 @@
         }
     },
     "cocoapod1-install":{
-        "URL":"http://xuyafei.com/post/all/cocoapod1-install",
+        "URL":"http://xuyafei.com/post/public/cocoapod1-install",
         "Title":"CocoaPods的安装与使用（一）",
         "FuzzyMatch":["cocoapod"],
         "ExactMatch":[
@@ -282,7 +282,7 @@
         }
     },
     "cocoapod2-impl":{
-        "URL":"http://xuyafei.com/post/all/cocoapod2-impl",
+        "URL":"http://xuyafei.com/post/public/cocoapod2-impl",
         "Title":"CocoaPods的原理与技巧（二）",
         "FuzzyMatch":["cocoapod"],
         "ExactMatch":[
@@ -296,7 +296,7 @@
         }
     },
     "cocoapod3-podspec":{
-        "URL":"http://xuyafei.com/post/all/cocoapod3-podspec",
+        "URL":"http://xuyafei.com/post/public/cocoapod3-podspec",
         "Title":"ocoaPods建立自己的Podspec（三）",
         "FuzzyMatch":["cocoapod"],
         "ExactMatch":[
@@ -310,7 +310,7 @@
         }
     },
     "cocoapod4-story":{
-        "URL":"http://xuyafei.com/post/all/cocoapod4-story",
+        "URL":"http://xuyafei.com/post/public/cocoapod4-story",
         "Title":"CocoaPods诞生的时代背景（四）",
         "FuzzyMatch":["cocoapod"],
         "ExactMatch":[
@@ -337,7 +337,7 @@
         }
     },
     "cggeometry":{
-        "URL":"http://xuyafei.com/post/all/cggeometry",
+        "URL":"http://xuyafei.com/post/public/cggeometry",
         "Title":"使用 CGGeometry 方法获取 CGRect 数据",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -351,7 +351,7 @@
         }
     },
     "autolayout-layout":{
-        "URL":"http://xuyafei.com/post/all/autolayout-layout",
+        "URL":"http://xuyafei.com/post/public/autolayout-layout",
         "Title":"UIView 在 AutoLayout 下的布局过程",
         "FuzzyMatch":[],
         "ExactMatch":[
@@ -364,7 +364,7 @@
         }
     },
     "property-modifier":{
-        "URL":"http://xuyafei.com/post/all/property-modifier",
+        "URL":"http://xuyafei.com/post/public/property-modifier",
         "Title":"属性内存管理相关修饰符的使用规范",
         "FuzzyMatch":[],
         "ExactMatch":[
