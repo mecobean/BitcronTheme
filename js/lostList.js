@@ -21,7 +21,7 @@
 		});
 		
 		// append 404 title
-		var appendHTML = "<h1>404 Not Found</h1>";
+		var appendHTML = "";
 		if (exactMetas.length) {
 			// append exact decription
 			appendHTML += "<h2>您访问的链接地址已更新如下，请及时提醒引用方更换</h2><div class='releated'><div class='content'><ul>";
