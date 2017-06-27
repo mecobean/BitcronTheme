@@ -297,7 +297,7 @@
     },
     "cocoapod3-podspec":{
         "URL":"http://xuyafei.com/post/public/cocoapod3-podspec",
-        "Title":"ocoaPods建立自己的Podspec（三）",
+        "Title":"CocoaPods建立自己的Podspec（三）",
         "FuzzyMatch":["cocoapod"],
         "ExactMatch":[
             "cocoapod3jian-li-podspec",
@@ -326,7 +326,7 @@
     "cocoapod-verify":{
         "URL":"http://xuyafei.com/post/private/cocoapod-verify",
         "Title":"CocoaPods下载原理的验证过程",
-        "FuzzyMatch":["cocoapod"],
+        "FuzzyMatch":[],
         "ExactMatch":[
             "cocoapodsxia-zai-yuan-li-de-yan-zheng-guo-cheng"
         ],

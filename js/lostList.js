@@ -2,7 +2,7 @@
 	var path = window.location.href.toLowerCase();
 	var exactMetas = new Array();
 	var fuzzyMetas = new Array();
-	$.getJSON("/template/js/postMeta.json", function(json) {
+	$.getJSON("/template/js/postMeta.js", function(json) {
 		$.each(json, function(key, postMeta) {
 			var exactMatchRules = postMeta["ExactMatch"];
 			var fuzzyMatchRules = postMeta["FuzzyMatch"];
@@ -24,7 +24,7 @@
 		var appendHTML = "";
 		if (exactMetas.length) {
 			// append exact decription
-			appendHTML += "<h2>您访问的链接地址已更新如下，请及时提醒引用方更换</h2><div class='releated'><div class='content'><ul>";
+			appendHTML += "<h2>您访问的链接已更新（如下所示），请及时提醒引用方修改</h2><div class='releated'><div class='content'><ul>";
 
 			// append exact list
 			$.each(exactMetas, function(index, exactMeta) {
@@ -42,9 +42,9 @@
 			// append fuzzy decription
 			appendHTML += "<h2>";
 			if (exactMetas.length) {
-				appendHTML += "我们同时为您匹配了如下相关文章";
+				appendHTML += "我们同时为您匹配了相关的链接（如下所示）";
 			} else {
-				appendHTML += "您访问的链接地址已失效，我们为您匹配了如下相关文章，请及时提醒引用方更换";
+				appendHTML += "您访问的链接已失效，我们为您匹配了相关的链接（如下所示），如有正确的匹配，请及时提醒引用方修改";
 			}
 			appendHTML += "</h2><div class='releated'><div class='content'><ul>";
 			
@@ -59,6 +59,10 @@
 				appendHTML += "</url></li>";
 			});
 			appendHTML += "</ul></div></div>";
+		}
+		if (!exactMetas.length && !fuzzyMetas.length) {
+			appendHTML += "<h2 style=\"text-align:center;\">您访问的链接不存在或已失效，您可以到博客 \
+			<a href=\"/\">首页</a> 或 <a href=\"/archive\">归档页</a> 查找您想要的文章</h2>";
 		}
 
 		// append html to content
