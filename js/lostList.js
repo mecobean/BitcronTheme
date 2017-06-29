@@ -2,7 +2,7 @@
 	var path = window.location.href.toLowerCase();
 	var exactMetas = new Array();
 	var fuzzyMetas = new Array();
-	$.getJSON("/template/js/postMeta.js", function(json) {
+	$.getJSON("/template/js/postMeta.json", function(json) {
 		$.each(json, function(key, postMeta) {
 			var exactMatchRules = postMeta["ExactMatch"];
 			var fuzzyMatchRules = postMeta["FuzzyMatch"];
