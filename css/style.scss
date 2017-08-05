@@ -1095,10 +1095,20 @@ input, textarea, button {
 					font-size: 0.14rem;}
 				.info {
 					font-size: 0.12rem;
+					.pin {
+		                display: inline;
+						float: left;
+		                padding: 0 0.04rem 0 0.04rem;
+						margin-right: 0.06rem;
+		                color: red;
+						border: solid 0.5px red;
+						border-radius: 4px;
+					}
 					.date .icon-icon_clock { display: none;}
 					.visitors, .tags { display: none;}
 				}
 			}
+			.pinContainter {display: none;}
 		}
 		.text {
 			.content {
@@ -1153,6 +1163,7 @@ input, textarea, button {
 			.info {
 				font-size: 0.12rem;
 				color: $dark2;
+				.pin {display: none;}
 				.date {
 					float: left;
 					margin: 0 0.2rem 0 0;
@@ -1186,6 +1197,13 @@ input, textarea, button {
 						border-radius: 4px;
 						margin-right: 0.06rem;
 					}
+				}
+			}
+			.pinContainter {
+				position: absolute;
+				img {
+					width: 40px;
+					height: 40px;
 				}
 			}
 		}
