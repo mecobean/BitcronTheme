@@ -1062,6 +1062,67 @@ input, textarea, button {
 //                             basic pages                             //
 //*********************************************************************//
 
+//****************************  password  *****************************//
+
+// phone
+@media only screen and (max-width: $phone_landscape-max) {
+	.password_list {
+		#pwd_hint{display: none;}
+		input#pwd_text {display: none;}
+		input#pwd_submit {display: none;}
+	}
+	.password_detail {
+		margin: 0.2rem 0.2rem 0.3rem 0.2rem;
+		#pwd_alert {
+			display: block;
+			color:red;
+		}
+		#pwd_hint {
+			display: block;
+		}
+		input#pwd_text {
+			height:0.2rem;
+			border:solid 1px $primary1;
+		}
+		input#pwd_submit {
+			height:0.22rem;
+			width:0.4rem;
+			background-color:$primary1;
+			color:white;
+			position:absolute;
+			margin-top:2px;
+		}
+	}
+}
+
+// pad and pc
+@media only screen and (min-width: $pad_portrait-min) {
+	.password_list {
+		margin: 0.2rem 0 0.3rem 0;
+	}
+	.password_detail {
+		margin: 0.25rem 0 0.3rem 0;
+		#pwd_alert {
+			display: block;
+			color:red;
+		}
+	}
+	#pwd_hint {
+		display: block;
+	}
+	input#pwd_text {
+		height:0.2rem;
+		border:solid 1px $primary1;
+	}
+	input#pwd_submit {
+		height:0.22rem;
+		width:0.4rem;
+		background-color:$primary1;
+		color:white;
+		position:absolute;
+		margin-top:2px;
+	}
+}
 
 //******************************  list  *******************************//
 
@@ -1108,7 +1169,7 @@ input, textarea, button {
 					.visitors, .tags { display: none;}
 				}
 			}
-			.pinContainter {display: none;}
+			.pin_container {display: none;}
 		}
 		.text {
 			.content {
@@ -1199,7 +1260,7 @@ input, textarea, button {
 					}
 				}
 			}
-			.pinContainter {
+			.pin_container {
 				position: absolute;
 				img {
 					width: 40px;

@@ -4,7 +4,18 @@
 	article.post
 		section.content
 			h1.title= post.title
-			.post_body= post.content
+			if not post.metadata.password or request.form.password|string == post.metadata.password|string
+				.post_body= post.content
+			else
+				.password_detail
+					include include/passwordForm
+					if request.form.password|string
+						#pwd_alert
+							if post.metadata.hint
+								|答案
+							else
+								|密码
+							|错误！
 			.info.clearfix
 				.date
 					.icon-icon_clock

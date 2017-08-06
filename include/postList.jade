@@ -5,12 +5,12 @@ if request.url_without_host == "/"
 		if post.metadata.pin
 			if post.cover
 				article.post.img(bg=post.cover)
-					.pinContainter
+					.pin_container
 						img(src="/template/images/pin.png")
 					include include/postListItem
 			else
 				article.post.text
-					.pinContainter
+					.pin_container
 						img(src="/template/images/pin.png")
 					include include/postListItem
 
