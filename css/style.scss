@@ -1067,24 +1067,24 @@ input, textarea, button {
 // phone
 @media only screen and (max-width: $phone_landscape-max) {
 	.password_list {
-		#pwd_hint{display: none;}
-		input#pwd_text {display: none;}
-		input#pwd_submit {display: none;}
+		.pwd_hint{display: none;}
+		input.pwd_text {display: none;}
+		input.pwd_submit {display: none;}
 	}
 	.password_detail {
 		margin: 0.2rem 0.2rem 0.3rem 0.2rem;
-		#pwd_alert {
+		.pwd_alert {
 			display: block;
 			color:red;
 		}
-		#pwd_hint {
+		.pwd_hint {
 			display: block;
 		}
-		input#pwd_text {
+		input.pwd_text {
 			height:0.2rem;
 			border:solid 1px $primary1;
 		}
-		input#pwd_submit {
+		input.pwd_submit {
 			height:0.22rem;
 			width:0.4rem;
 			background-color:$primary1;
@@ -1102,19 +1102,19 @@ input, textarea, button {
 	}
 	.password_detail {
 		margin: 0.25rem 0 0.3rem 0;
-		#pwd_alert {
+		.pwd_alert {
 			display: block;
 			color:red;
 		}
 	}
-	#pwd_hint {
+	.pwd_hint {
 		display: block;
 	}
-	input#pwd_text {
+	input.pwd_text {
 		height:0.2rem;
 		border:solid 1px $primary1;
 	}
-	input#pwd_submit {
+	input.pwd_submit {
 		height:0.22rem;
 		width:0.4rem;
 		background-color:$primary1;

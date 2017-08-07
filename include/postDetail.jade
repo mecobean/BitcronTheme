@@ -10,7 +10,7 @@
 				.password_detail
 					include include/passwordForm
 					if request.form.password|string
-						#pwd_alert
+						.pwd_alert
 							if post.metadata.hint
 								|答案
 							else
